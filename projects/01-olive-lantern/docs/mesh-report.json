@@ -1,0 +1,162 @@
+{
+  "parameters": {
+    "neck_radius": 110.0,
+    "belly": 10.0,
+    "flute_depth": 1.8,
+    "flutes": 12,
+    "wall": 1.2,
+    "height": 210.0,
+    "collar_height": 6.0,
+    "radial_clearance": 0.35,
+    "sections": 7,
+    "angular_steps": 360,
+    "vertical_steps": 105,
+    "cable_height": 10.0,
+    "cable_top_width": 8.0,
+    "cable_slope": 1.5,
+    "cap_radius": 112.0,
+    "cap_vent_radius": 30.0,
+    "cap_roof": 1.6,
+    "cap_seat": 3.2
+  },
+  "parts": {
+    "base": {
+      "triangles": 154800,
+      "bounds_mm": [
+        [
+          -121.79735935047266,
+          -121.79735935047266,
+          0.0
+        ],
+        [
+          121.79735935047266,
+          121.79735935047266,
+          216.0
+        ]
+      ],
+      "size_mm": [
+        243.59471870094532,
+        243.59471870094532,
+        216.0
+      ],
+      "volume_cm3": 186.88438021178715,
+      "closed_manifold": true,
+      "consistent_winding": true
+    },
+    "middle": {
+      "triangles": 154800,
+      "bounds_mm": [
+        [
+          -121.79735935047266,
+          -121.79735935047266,
+          0.0
+        ],
+        [
+          121.79735935047266,
+          121.79735935047266,
+          216.0
+        ]
+      ],
+      "size_mm": [
+        243.59471870094532,
+        243.59471870094532,
+        216.0
+      ],
+      "volume_cm3": 187.0608079425283,
+      "closed_manifold": true,
+      "consistent_winding": true
+    },
+    "top": {
+      "triangles": 152640,
+      "bounds_mm": [
+        [
+          -121.79735935047266,
+          -121.79735935047266,
+          0.0
+        ],
+        [
+          121.79735935047266,
+          121.79735935047266,
+          210.0
+        ]
+      ],
+      "size_mm": [
+        243.59471870094532,
+        243.59471870094532,
+        210.0
+      ],
+      "volume_cm3": 181.12749649175743,
+      "closed_manifold": true,
+      "consistent_winding": true
+    },
+    "cap": {
+      "triangles": 6480,
+      "bounds_mm": [
+        [
+          -112.0,
+          -112.0,
+          0
+        ],
+        [
+          112.0,
+          112.0,
+          9.2
+        ]
+      ],
+      "size_mm": [
+        224.0,
+        224.0,
+        9.2
+      ],
+      "volume_cm3": 67.24051284521002,
+      "closed_manifold": true,
+      "consistent_winding": true
+    },
+    "fit_male": {
+      "triangles": 4320,
+      "bounds_mm": [
+        [
+          -110.0,
+          -110.0,
+          0
+        ],
+        [
+          110.0,
+          110.0,
+          12
+        ]
+      ],
+      "size_mm": [
+        220.0,
+        220.0,
+        12
+      ],
+      "volume_cm3": 16.139631189361527,
+      "closed_manifold": true,
+      "consistent_winding": true
+    },
+    "fit_female": {
+      "triangles": 2880,
+      "bounds_mm": [
+        [
+          -110.0,
+          -110.0,
+          0
+        ],
+        [
+          110.0,
+          110.0,
+          12
+        ]
+      ],
+      "size_mm": [
+        220.0,
+        220.0,
+        12
+      ],
+      "volume_cm3": 9.897776281815801,
+      "closed_manifold": true,
+      "consistent_winding": true
+    }
+  }
+}
