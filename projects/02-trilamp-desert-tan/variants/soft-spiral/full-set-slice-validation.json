@@ -1,0 +1,167 @@
+{
+  "error_string": "Success.",
+  "export_time": 3781,
+  "layer_height": 0.20000000298023224,
+  "plate_index": 0,
+  "prepare_time": 803,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 312.69036865234375,
+        "Bridge": 204.7499237060547,
+        "Brim": 178.4265899658203,
+        "Custom": 397.57928466796875,
+        "Flush": 26.0,
+        "Gap infill": 11.441688537597656,
+        "Inner wall": 4918.03564453125,
+        "Internal solid infill": 822.8324584960938,
+        "Outer wall": 17539.015625,
+        "Overhang wall": 1346.9339599609375,
+        "Sparse infill": 245.6260986328125,
+        "Top surface": 162.0889129638672,
+        "Travel": 3466.71435546875,
+        "Undefined": 3465.145263671875
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 100.7574462890625,
+          "total_used_g": 100.7574462890625
+        }
+      ],
+      "generate_support_material_time": 463,
+      "id": 1,
+      "infill_time": 681,
+      "layer_filament_change": 0,
+      "main_predication": 29187.041015625,
+      "make_perimeters_time": 3451,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 85.0,
+            "height": 210.0,
+            "width": 85.0,
+            "x": 30.5,
+            "y": 85.5,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "shade",
+          "triangle_count": 523554
+        },
+        {
+          "bbox": {
+            "depth": 85.0,
+            "height": 6.0,
+            "width": 85.0,
+            "x": 135.5,
+            "y": 85.5,
+            "z": 0.0
+          },
+          "id": 9,
+          "name": "cap",
+          "triangle_count": 10800
+        }
+      ],
+      "sliced_time": 9633,
+      "sliced_time_with_cache": 3990,
+      "total_predication": 29635.05078125,
+      "triangle_count": 534354,
+      "warning_message": ""
+    },
+    {
+      "feature_type_times": {
+        "Bottom surface": 126.58757781982422,
+        "Bridge": 29.585552215576172,
+        "Brim": 236.03041076660156,
+        "Custom": 397.7335510253906,
+        "Flush": 26.0,
+        "Gap infill": 4.273615837097168,
+        "Inner wall": 4490.7275390625,
+        "Internal solid infill": 358.2334289550781,
+        "Outer wall": 4520.97314453125,
+        "Sparse infill": 952.9705810546875,
+        "Top surface": 35.07597732543945,
+        "Travel": 1934.5499267578125,
+        "Undefined": 1932.98095703125
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 58.14509582519531,
+          "total_used_g": 58.14509582519531
+        }
+      ],
+      "generate_support_material_time": 270,
+      "id": 2,
+      "infill_time": 331,
+      "layer_filament_change": 0,
+      "main_predication": 12663.904296875,
+      "make_perimeters_time": 1308,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 78.82684326171875,
+            "height": 190.0,
+            "width": 90.2689437866211,
+            "x": 424.0655212402344,
+            "y": 61.586578369140625,
+            "z": 0.0
+          },
+          "id": 13,
+          "name": "stand_tall",
+          "triangle_count": 10384
+        },
+        {
+          "bbox": {
+            "depth": 78.82086181640625,
+            "height": 12.0,
+            "width": 90.26827239990234,
+            "x": 330.06585693359375,
+            "y": 80.58956909179688,
+            "z": 0.0
+          },
+          "id": 17,
+          "name": "stand_base",
+          "triangle_count": 12544
+        },
+        {
+          "bbox": {
+            "depth": 31.980005264282227,
+            "height": 18.0,
+            "width": 31.980009078979492,
+            "x": 406.2099914550781,
+            "y": 195.00999450683594,
+            "z": 0.0
+          },
+          "id": 21,
+          "name": "stand_collar",
+          "triangle_count": 6936
+        }
+      ],
+      "sliced_time": 3450,
+      "sliced_time_with_cache": 1419,
+      "total_predication": 13112.0693359375,
+      "triangle_count": 29864,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab A1 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

@@ -1,0 +1,5 @@
+# Keep original/source-derived 3D files local unless separately authorized.
+**/models/*.stl
+**/studio/*.3mf
+!variants/soft-spiral/models/cap.stl
+!variants/soft-spiral/studio/TriLamp_Soft_Spiral_Cap_P2S.3mf
