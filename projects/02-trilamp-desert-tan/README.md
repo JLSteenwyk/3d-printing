@@ -1,10 +1,10 @@
-# TriLamp — Soft Spiral shade and matching cap
+# TriLamp — Organic Lantern shade and matching cap
 
-A softer replacement for the tall TriLamp shade: rounded spiral folds, small
-openings tucked into the valleys, and a fine fuzzy finish. Designed for opaque
+A softer replacement for the tall TriLamp shade: gently bowed sides, flowing
+shallow waves, varied small openings, and a fine fuzzy finish. Designed for opaque
 PLA in Desert Tan or other muted colors, including grey-blue.
 
-**[Current design, cap download, and full-set build instructions](variants/soft-spiral/)**
+**[Current design, cap download, and full-set build instructions](variants/organic-lantern/)**
 
 ## What is available here
 
@@ -25,3 +25,5 @@ The three original tall-stand components are `TriLampStand.stl`,
 `TriLampStand2.stl`, and `TriLampStand3.stl` (plate 6 of the supplied all-variants
 project). The local build extracts them without changing their shape, preserving
 the original print orientation.
+
+[Previous Soft Spiral version](variants/soft-spiral/) remains available.

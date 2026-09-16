@@ -3,3 +3,5 @@
 **/studio/*.3mf
 !variants/soft-spiral/models/cap.stl
 !variants/soft-spiral/studio/TriLamp_Soft_Spiral_Cap_P2S.3mf
+!variants/organic-lantern/models/cap.stl
+!variants/organic-lantern/studio/TriLamp_Organic_Lantern_Cap_P2S.3mf
