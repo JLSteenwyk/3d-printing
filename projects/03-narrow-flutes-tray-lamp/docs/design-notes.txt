@@ -1,0 +1,76 @@
+NARROW FLUTES V2 — SINGLE OLIVE PRINT, SEPARATE TAN TRIM
+
+V2 changes
+The olive wall, lower frame, socket-adapter pad, supporting ledge and recessed
+tray receiver are one connected PETG model. There are no olive assembly joints,
+separate feet, or screws between the diffuser and receiver. The tan base and
+top sleeves print separately and slip on afterward, with removable adhesive
+tabs if needed. The socket, its adapter, cord and grip pads install afterward.
+
+Appearance
+V1's ribs were only 1.6 mm deep and looked like shallow corrugations. V2 uses
+rounded 7 mm-wide ribs with 3.4 mm relief and approximately 8.4 mm spacing.
+Their upper ends are rounded; lower 45-degree chamfers are hidden by tan trim.
+The front and right faces are uninterrupted. Intake and exhaust windows are
+on the rear and left end. The continuous ventilation gap of V1 is removed.
+This model follows the selected concept's round rib texture; it cannot promise
+the AI image's exact glow or unmeasured proportions. The preview renders actual
+CAD geometry with a schematic tray. It does not simulate PETG transparency.
+
+Dimensions
+Olive body: 247.23 x 207.86 x 152 mm. With tan trim: 251.23 x 211.86 mm.
+Tray pocket: 241.23 x 201.86 mm, 8 mm deep, 0.6 mm rigid clearance per side.
+Tray sits at 144 mm; total height with the supplied 25.4 mm tray is 169.4 mm.
+Tray corner radius is still an assumed 15 mm, not a measured value.
+Grip pads: four 24 x 4.5 mm recesses, 0.3 mm deep. Start with compressible
+adhesive pads near 1 mm thick and adjust according to actual fit.
+The tray is retained against lateral motion, but is deliberately lift-out.
+Tan sleeves have 0.3 mm radial slip clearance around the olive receiver/body.
+They are cosmetic and do not replace the PETG load-bearing structure.
+
+Printing intent
+Print olive_body_one_piece_PETG.stl upright, flat base on the bed, using ordinary
+mode, not vase mode. It is designed to avoid long internal bridges: the ledge
+grows inward over a 16 mm slope; vent and cord-opening roofs close at 45 degrees.
+The base rails begin on the bed. The bulb can be installed and replaced through
+the large tray opening. No permanently trapped printed supports are intended.
+The remaining small transitions still need inspection in Bambu Studio. No
+P2S toolpath, support setting or physical print has been validated. One connected
+solid does not by itself prove successful support-free printing.
+Tan trim fits the nominal 256 mm build volume but is 251.23 mm wide, leaving
+only about 2.38 mm per edge. Inspect brim/plate placement carefully.
+Use your PETG filament profile and test adhesion before the large body print.
+
+First print
+Print tray_corner_coupon.stl to check the assumed corner, then print the full
+tray_fit_test_rim.stl to check the opposing sides. The fit samples reproduce the
+V2 receiver geometry. Adjust parameters.json and regenerate before printing
+the full lamp if the bare rim binds. Add pads after confirming the rigid fit.
+
+Socket and thermal status
+One horizontal A19 bulb envelope (123 x 60 mm), with a provisional 45 x 45 mm
+socket envelope beside it, clears the model. This is a space reservation, not
+the actual hardware. The socket mount/adapter and strain relief remain to be
+designed around a selected complete prewired E26 socket-and-cord assembly.
+The integral mounting pad has four 3.4 mm holes on a 40 x 24 mm pattern.
+No printed electrical contacts are supplied. Do not energize this incomplete
+prototype. Final hardware retention, access and cord routing need review.
+There are 14 upper vent windows and 14 lower windows; tan trim does not seal
+them. Adequate temperatures with the leather tray installed are not established.
+The H6008 label prohibits use in totally enclosed luminaires. Final heat and
+load/creep testing with the intended contents are still required.
+
+Verification
+All five exported designs are one connected, watertight, consistently wound
+solid. They fit the nominal 256 mm build envelope. Tan trim has no material
+overlap with the olive body; the reserved hardware envelope has no intersection.
+overhang-screen.json records geometric layer-growth screening at 0.2 mm pitch;
+this is not slicing or proof that supports are unnecessary. validation.json
+records model checks and explicitly marks unfinished physical/slicer tests.
+
+Editing
+generate.py is the parametric CAD source; parameters.json holds tray dimensions,
+clearance and main dimensions. Dependencies: numpy, manifold3d, trimesh, Pillow.
+Run python generate.py. Some rib geometry, vent positions, socket pad and ledge
+features are fixed prototype values in the source; review those after changing
+parameters. The published project contains the selected V2 revision.
