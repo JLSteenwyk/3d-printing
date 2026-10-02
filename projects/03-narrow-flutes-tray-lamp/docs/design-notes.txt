@@ -21,7 +21,9 @@ Dimensions
 Olive body: 247.23 x 207.86 x 152 mm. With tan trim: 251.23 x 211.86 mm.
 Tray pocket: 241.23 x 201.86 mm, 8 mm deep, 0.6 mm rigid clearance per side.
 Tray sits at 144 mm; total height with the supplied 25.4 mm tray is 169.4 mm.
-Tray corner radius is still an assumed 15 mm, not a measured value.
+Tray corner radius is fitted at 27 mm. User accepted the printed R27 coupon
+on October 2, 2026. Pocket radius is 27.6 mm; exterior radius remains 18.6 mm.
+Full rim fit is pending. This is not a direct radius measurement.
 Grip pads: four 24 x 4.5 mm recesses, 0.3 mm deep. Start with compressible
 adhesive pads near 1 mm thick and adjust according to actual fit.
 The tray is retained against lateral motion, but is deliberately lift-out.
@@ -42,8 +44,8 @@ only about 2.38 mm per edge. Inspect brim/plate placement carefully.
 Use your PETG filament profile and test adhesion before the large body print.
 
 First print
-Print tray_corner_coupon.stl to check the assumed corner, then print the full
-tray_fit_test_rim.stl to check the opposing sides. The fit samples reproduce the
+The R27 corner coupon is accepted. Print the updated full tray_fit_test_rim.stl
+next to check opposing sides and all corners. The fit samples reproduce the
 V2 receiver geometry. Adjust parameters.json and regenerate before printing
 the full lamp if the bare rim binds. Add pads after confirming the rigid fit.
 
@@ -73,4 +75,4 @@ generate.py is the parametric CAD source; parameters.json holds tray dimensions,
 clearance and main dimensions. Dependencies: numpy, manifold3d, trimesh, Pillow.
 Run python generate.py. Some rib geometry, vent positions, socket pad and ledge
 features are fixed prototype values in the source; review those after changing
-parameters. The published project contains the selected V2 revision.
+parameters. The published project contains V2 with the accepted R27 receiver revision.

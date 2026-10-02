@@ -15,7 +15,7 @@ PREVIEWS = OUT / "previews"
 for folder in (MODELS, DOCS, PREVIEWS):
     folder.mkdir(parents=True, exist_ok=True)
 P = dict(tray_width=9.45*25.4, tray_depth=7.9*25.4, tray_height=25.4,
-         tray_mass_g=13.1*28.349523125, tray_corner_radius=15.0,
+         tray_mass_g=13.1*28.349523125, tray_corner_radius=27.0, receiver_outer_corner_radius=18.6,
          side_clearance=0.6, collar_wall=3.0, pocket_depth=8.0,
          body_height=152.0, ledge_width=15.0, diffuser_wall=1.2,
          flute_depth=3.4, flute_pitch=8.4,
@@ -27,7 +27,8 @@ W,D=P['tray_width'],P['tray_depth']
 CW,CD=W+2*P['side_clearance'],D+2*P['side_clearance']
 CR=P['tray_corner_radius']+P['side_clearance']
 OW,OD=CW+2*P['collar_wall'],CD+2*P['collar_wall']
-OR=CR+P['collar_wall']
+# Keep the exterior from the physically tested R27 coupon.
+OR=P['receiver_outer_corner_radius']
 NW,ND=OW-2*P['flute_depth'],OD-2*P['flute_depth']
 NR=OR-P['flute_depth']
 SEAT=P['body_height']-P['pocket_depth']
@@ -182,7 +183,8 @@ report={'version':2,'units':'mm','parameters':P,'flute_count':flute_count,
         'print_intent':'one connected olive body, upright; tan trim printed separately',
         'upper_vent_count':len(upper_cuts),'lower_vent_count':len(lower_cuts),
         'slicer_validation_completed':False,'thermal_validation_completed':False,
-        'physical_tray_fit_confirmed':False,'socket_adapter_finalized':False,'parts':{}}
+        'physical_tray_fit_confirmed':False,'corner_coupon_fit_confirmed':True,
+        'corner_fit_evidence':'User accepted printed R27 coupon on 2026-10-02; full rim fit pending','socket_adapter_finalized':False,'parts':{}}
 for name,solid in parts.items():
     m=mesh(solid)
     assert m.is_watertight and m.is_winding_consistent and m.volume>0,name
