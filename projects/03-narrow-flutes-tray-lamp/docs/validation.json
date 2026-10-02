@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "units": "mm",
+  "parameters": {
+    "tray_width": 240.02999999999997,
+    "tray_depth": 200.66,
+    "tray_height": 25.4,
+    "tray_mass_g": 371.3787529375,
+    "tray_corner_radius": 15.0,
+    "side_clearance": 0.6,
+    "collar_wall": 3.0,
+    "pocket_depth": 8.0,
+    "body_height": 152.0,
+    "ledge_width": 15.0,
+    "diffuser_wall": 1.2,
+    "flute_depth": 3.4,
+    "flute_pitch": 8.4,
+    "socket_envelope_length": 45.0,
+    "socket_envelope_diameter": 45.0
+  },
+  "flute_count": 102,
+  "rib_radius_mm": 3.5,
+  "olive_body_mm": [
+    247.22999999999996,
+    207.85999999999999,
+    152.0
+  ],
+  "trim_footprint_mm": [
+    251.22999999999996,
+    211.85999999999999
+  ],
+  "pocket_mm": [
+    241.22999999999996,
+    201.85999999999999,
+    8.0
+  ],
+  "tray_seat_mm": 144.0,
+  "total_height_with_tray_mm": 169.4,
+  "print_intent": "one connected olive body, upright; tan trim printed separately",
+  "upper_vent_count": 14,
+  "lower_vent_count": 14,
+  "slicer_validation_completed": false,
+  "thermal_validation_completed": false,
+  "physical_tray_fit_confirmed": false,
+  "socket_adapter_finalized": false,
+  "parts": {
+    "olive_body_one_piece_PETG": {
+      "extents_mm": [
+        247.22999572753906,
+        207.86000061035156,
+        152.0
+      ],
+      "volume_cm3": 563.7963777922398,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tan_base_trim_PLA": {
+      "extents_mm": [
+        251.22999572753906,
+        211.86000061035156,
+        14.0
+      ],
+      "volume_cm3": 17.64786262172158,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tan_top_trim_PLA": {
+      "extents_mm": [
+        251.22999572753906,
+        211.86000061035156,
+        12.0
+      ],
+      "volume_cm3": 17.710006181254517,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tray_fit_test_rim": {
+      "extents_mm": [
+        247.22999572753906,
+        207.86000061035156,
+        10.0
+      ],
+      "volume_cm3": 31.843255142826646,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tray_corner_coupon": {
+      "extents_mm": [
+        79.99999618530273,
+        80.0,
+        10.0
+      ],
+      "volume_cm3": 5.595384078775166,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    }
+  },
+  "hardware_envelope_overlap_cm3": 0.0,
+  "trim_body_overlap_cm3": {
+    "base": 0.0,
+    "top": 0.0
+  }
+}

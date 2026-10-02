@@ -1,0 +1,17 @@
+{
+  "tray_width": 240.02999999999997,
+  "tray_depth": 200.66,
+  "tray_height": 25.4,
+  "tray_mass_g": 371.3787529375,
+  "tray_corner_radius": 15.0,
+  "side_clearance": 0.6,
+  "collar_wall": 3.0,
+  "pocket_depth": 8.0,
+  "body_height": 152.0,
+  "ledge_width": 15.0,
+  "diffuser_wall": 1.2,
+  "flute_depth": 3.4,
+  "flute_pitch": 8.4,
+  "socket_envelope_length": 45.0,
+  "socket_envelope_diameter": 45.0
+}
