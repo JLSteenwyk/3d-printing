@@ -1,8 +1,12 @@
 {
   "method": "760 horizontal sections at 0.2 mm pitch; current material compared with previous section expanded 0.25 mm",
   "meaning": "geometric overhang screening, not toolpaths or a slicer validation",
-  "layers_with_excess_area": 68,
+  "layers_with_excess_area": 69,
   "worst_layers": [
+    [
+      140.1,
+      5.7671
+    ],
     [
       149.5,
       2.35
@@ -78,10 +82,6 @@
     [
       128.1,
       0.2296
-    ],
-    [
-      129.1,
-      0.2225
     ]
   ]
 }

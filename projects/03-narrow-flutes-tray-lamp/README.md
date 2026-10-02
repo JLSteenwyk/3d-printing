@@ -6,8 +6,9 @@ frame print as one connected part; desert tan PLA trim prints separately.
 One horizontal Govee H6008 A19/E26 bulb is reserved inside the body.
 
 **Mechanical prototype:** the socket adapter and strain relief are unfinished.
-Tray fit, slicing, support-free printing, strength and heat behavior have not
-been physically validated. Print the fit samples before the full body.
+The R27 corner coupon has been physically tested and accepted by the user.
+Full tray fit, slicing, support-free printing, strength and heat behavior still
+need validation. Print the complete fit-test rim before the full body.
 
 ![Actual CAD geometry, with a schematic tray](previews/cad-preview-v2.png)
 
@@ -15,7 +16,7 @@ been physically validated. Print the fit samples before the full body.
 
 | Part | Material | Purpose |
 | --- | --- | --- |
-| [Corner coupon](models/tray_corner_coupon.stl) | PETG | First check of the assumed tray corner |
+| [Corner coupon](models/tray_corner_coupon.stl) | PETG | Accepted R27 corner shape; optional repeat check |
 | [Complete fit-test rim](models/tray_fit_test_rim.stl) | PETG | Confirm full length, width and grip-pad fit |
 | [One-piece olive body](models/olive_body_one_piece_PETG.stl) | Translucent olive PETG | Integral diffuser, frame and tray receiver |
 | [Base trim](models/tan_base_trim_PLA.stl) | Desert tan PLA | Separate cosmetic sleeve |
@@ -39,8 +40,11 @@ G-code is included.
 | Height with inserted tray | 169.4 mm |
 | Rib profile | Rounded 7 mm-wide ribs, ~8.4 mm pitch, 3.4 mm relief |
 
-The tray corner radius is a **15 mm assumption**, not a measurement. Confirm it
-with the corner coupon, then test the complete rim. The tray lifts out deliberately;
+The tray corner radius is **27 mm**, selected through a printed coupon fit test
+and accepted on October 2, 2026. It is a fitted model value, not a direct radius
+measurement. The exterior corner radius remains 18.6 mm, as on that coupon.
+The complete rim and lamp now use this accepted pocket shape. Test the complete
+rim next to verify the opposing sides and all four corners. The tray lifts out deliberately;
 the receiver restricts sideways movement without a positive upward latch.
 
 The 251.23 mm-wide trim leaves only about 2.38 mm per edge on the P2S's nominal
@@ -85,7 +89,7 @@ overhangs; it is **not** toolpath generation or slicer validation.
 
 Before the complete lamp is used:
 
-1. Confirm tray corner, pocket and grip-pad fit with the samples.
+1. Confirm full pocket and grip-pad fit with the complete rim; the R27 corner coupon is accepted.
 2. Select a complete prewired E26 socket/cord assembly and design its adapter,
    retention and strain relief. The current 45 × 45 mm socket allowance is provisional.
 3. Inspect and slice the full body in Bambu Studio; verify bridges and print settings.

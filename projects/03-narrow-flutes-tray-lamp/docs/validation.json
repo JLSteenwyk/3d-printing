@@ -6,7 +6,8 @@
     "tray_depth": 200.66,
     "tray_height": 25.4,
     "tray_mass_g": 371.3787529375,
-    "tray_corner_radius": 15.0,
+    "tray_corner_radius": 27.0,
+    "receiver_outer_corner_radius": 18.6,
     "side_clearance": 0.6,
     "collar_wall": 3.0,
     "pocket_depth": 8.0,
@@ -42,6 +43,8 @@
   "slicer_validation_completed": false,
   "thermal_validation_completed": false,
   "physical_tray_fit_confirmed": false,
+  "corner_coupon_fit_confirmed": true,
+  "corner_fit_evidence": "User accepted printed R27 coupon on 2026-10-02; full rim fit pending",
   "socket_adapter_finalized": false,
   "parts": {
     "olive_body_one_piece_PETG": {
@@ -50,7 +53,7 @@
         207.86000061035156,
         152.0
       ],
-      "volume_cm3": 563.7963777922398,
+      "volume_cm3": 567.8967938485431,
       "watertight": true,
       "winding_consistent": true,
       "connected_solids": 1
@@ -83,7 +86,7 @@
         207.86000061035156,
         10.0
       ],
-      "volume_cm3": 31.843255142826646,
+      "volume_cm3": 36.13201254732185,
       "watertight": true,
       "winding_consistent": true,
       "connected_solids": 1
@@ -94,7 +97,7 @@
         80.0,
         10.0
       ],
-      "volume_cm3": 5.595384078775166,
+      "volume_cm3": 6.667573680280887,
       "watertight": true,
       "winding_consistent": true,
       "connected_solids": 1
