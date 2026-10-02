@@ -1,0 +1,16 @@
+{
+  "units": "mm",
+  "trial_tray_corner_radius": 27,
+  "pocket_corner_radius": 27.6,
+  "side_clearance": 0.6,
+  "original_exterior_corner_radius": 18.6,
+  "extents_mm": [
+    80.0,
+    80.0,
+    10.0
+  ],
+  "watertight": true,
+  "connected_solids": 1,
+  "expected_diagonal_gap_reduction_mm": 4.970562748477142,
+  "physical_fit_confirmed": false
+}
