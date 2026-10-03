@@ -1,0 +1,51 @@
+{
+  "units": "mm",
+  "bore_mm": 40,
+  "clamping_plate_thickness_mm": 3,
+  "bulb_axis_height_mm": 75,
+  "mounting_face_x_mm": -50,
+  "base_holes_mm": [
+    [
+      -20,
+      -12
+    ],
+    [
+      -20,
+      12
+    ],
+    [
+      20,
+      -12
+    ],
+    [
+      20,
+      12
+    ]
+  ],
+  "base_holes_diameter_mm": 3.4,
+  "assembly_base_z_mm": 5,
+  "extents_mm": [
+    85.0,
+    54.0,
+    96.0
+  ],
+  "watertight": true,
+  "socket_clearance_estimate_mm": {
+    "rear_x": -98,
+    "front_x": -25,
+    "diameter": 58
+  },
+  "bulb_envelope_mm": {
+    "rear_x": -25,
+    "front_x": 98,
+    "diameter": 60
+  },
+  "mount_interface_fit_confirmed": true,
+  "complete_bracket_fit_confirmed": false,
+  "socket_shape_assumptions": "Photo-based overall allowance; reduced 40 mm threaded neck near mounting face. Verify supplied socket shoulder and neck position.",
+  "thermal_validation_completed": false,
+  "cord_restraint_finalized": false,
+  "bracket_lamp_overlap_cm3": -1.1889112001546726e-15,
+  "socket_free_lamp_overlap_cm3": 0.0,
+  "bulb_lamp_overlap_cm3": 0.0
+}

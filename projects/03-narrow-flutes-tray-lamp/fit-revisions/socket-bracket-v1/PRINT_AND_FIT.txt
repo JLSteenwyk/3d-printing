@@ -1,0 +1,13 @@
+Socket bracket V1 — unpowered fit prototype
+
+Print socket_bracket_40mm_PETG.stl upright on its broad base, PETG, 100% scale. Use supports beneath the horizontal ring overhang and inspect the 40 mm hole bridge in Bambu Studio. Remove supports fully. The small gauge was support-free; this taller bracket is not.
+
+With the cord unplugged, remove the original retaining ring. Slide the socket through the 40 mm mounting hole from the gusset-free/back side, until its shoulder meets the plate. Reinstall the original retaining ring on the bulb side. Hand tighten. Confirm no rocking, shoulder interference or damaged threads. The hole and clamping plate match the accepted 40 mm / 3 mm gauge.
+
+Insert the Govee bulb while unplugged. Check the socket cord grip, bulb and cord clear the base and webs. Confirm the bracket stays stable while gently installing/removing the bulb. Send a side photo of the assembled bracket with bulb before printing the lamp body.
+
+Final assembly uses four M3 bolts and nuts through the existing 40 x 24 mm pad pattern. Bracket base thickness 5 mm plus lamp pad 5 mm: M3 x 16 mm is a starting length with washers/nuts, verify actual hardware. Install from the open underside. Hardware is not included.
+
+Lamp assembly: bracket base bottom sits on pad at Z5; mounting face X-50, bulb axis Z75. Base holes align with existing pad. This STL is shifted to Z0 for printing; mount it on the pad without changing its orientation.
+
+Cord routes behind the socket down to the rear opening. Keep cord slack away from the bulb. Cord thickness is not established; do not clamp or pinch insulation. Separate cord restraint still needs finalizing before power-up. This bracket fit test is not thermal or electrical validation. Do not energize the prototype yet.
