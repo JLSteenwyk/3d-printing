@@ -42,9 +42,9 @@
   "lower_vent_count": 14,
   "slicer_validation_completed": false,
   "thermal_validation_completed": false,
-  "physical_tray_fit_confirmed": false,
+  "physical_tray_fit_confirmed": true,
   "corner_coupon_fit_confirmed": true,
-  "corner_fit_evidence": "User accepted printed R27 coupon on 2026-10-02; full rim fit pending",
+  "corner_fit_evidence": "User accepted printed R27 coupon and full R27 rim on 2026-10-02",
   "socket_adapter_finalized": false,
   "parts": {
     "olive_body_one_piece_PETG": {

@@ -1,0 +1,7 @@
+Print flat in PETG at 100% scale, using the intended bracket print settings.
+One STL contains five separate 3 mm thick test rings.
+1 notch = 37 mm hole; 2 = 38; 3 = 39; 4 = 40; 5 = 41.
+With the cord unplugged, remove its retaining ring and slide each test ring over the OUTSIDE socket threads. Do not insert a test ring into the electrical opening.
+Choose the smallest hole that slides on freely without threading or force. Screw the original retaining ring back on and check that it clamps the test ring securely against the socket shoulder. Tell us the notch count that works.
+If all holes are too small or too large, report that rather than forcing a fit.
+This gauge does not validate the final bracket, heat behavior or cord restraint.

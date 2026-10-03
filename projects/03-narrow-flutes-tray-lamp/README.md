@@ -6,9 +6,9 @@ frame print as one connected part; desert tan PLA trim prints separately.
 One horizontal Govee H6008 A19/E26 bulb is reserved inside the body.
 
 **Mechanical prototype:** the socket adapter and strain relief are unfinished.
-The R27 corner coupon has been physically tested and accepted by the user.
-Full tray fit, slicing, support-free printing, strength and heat behavior still
-need validation. Print the complete fit-test rim before the full body.
+The R27 corner coupon and complete tray rim have been physically tested and
+accepted by the user. Slicing, support-free printing, strength and heat behavior
+still need validation. Socket mount and cord restraint remain unfinished.
 
 ![Actual CAD geometry, with a schematic tray](previews/cad-preview-v2.png)
 
@@ -43,8 +43,7 @@ G-code is included.
 The tray corner radius is **27 mm**, selected through a printed coupon fit test
 and accepted on October 2, 2026. It is a fitted model value, not a direct radius
 measurement. The exterior corner radius remains 18.6 mm, as on that coupon.
-The complete rim and lamp now use this accepted pocket shape. Test the complete
-rim next to verify the opposing sides and all four corners. The tray lifts out deliberately;
+The complete rim and lamp now use this accepted pocket shape. The complete rim was also accepted by the user on October 2, 2026. The tray lifts out deliberately;
 the receiver restricts sideways movement without a positive upward latch.
 
 The 251.23 mm-wide trim leaves only about 2.38 mm per edge on the P2S's nominal
@@ -89,7 +88,7 @@ overhangs; it is **not** toolpath generation or slicer validation.
 
 Before the complete lamp is used:
 
-1. Confirm full pocket and grip-pad fit with the complete rim; the R27 corner coupon is accepted.
+1. Tray pocket fit is accepted; confirm any added grip pads before use.
 2. Select a complete prewired E26 socket/cord assembly and design its adapter,
    retention and strain relief. The current 45 × 45 mm socket allowance is provisional.
 3. Inspect and slice the full body in Bambu Studio; verify bridges and print settings.
@@ -112,3 +111,21 @@ PETG transparency and glow are not simulated.
 
 This project was designed independently and does not include models from the
 repository's TriLamp project.
+
+## Socket fit test
+
+The selected assembly is [Zarnicy B0D3TMJPWR](https://www.amazon.com/dp/B0D3TMJPWR).
+The existing bulb/socket envelope check still uses the original provisional
+45 mm socket allowance; it is not validation of the delivered Zarnicy socket.
+
+Print [socket_hole_fit_gauge_37-41mm.stl](models/socket_hole_fit_gauge_37-41mm.stl)
+flat in PETG at 100% scale. Five separate 3 mm thick rings are identified by
+edge notches: 1 = 37 mm, 2 = 38 mm, 3 = 39 mm, 4 = 40 mm, 5 = 41 mm.
+With the cord unplugged, choose the smallest ring that slides freely over the
+external socket threads, then check that the original retaining ring clamps it
+against the socket shoulder. Do not force or screw the printed gauge onto threads.
+The final bracket depends on this fit result.
+
+See [instructions](fit-revisions/socket/instructions.txt) and
+[validation](fit-revisions/socket/validation.json). The generator writes the
+gauge STL beside itself; copy it to models/ when regenerating.

@@ -1,0 +1,38 @@
+{
+  "units": "mm",
+  "rings": [
+    {
+      "notches": 1,
+      "hole_diameter_mm": 37,
+      "thickness_mm": 3
+    },
+    {
+      "notches": 2,
+      "hole_diameter_mm": 38,
+      "thickness_mm": 3
+    },
+    {
+      "notches": 3,
+      "hole_diameter_mm": 39,
+      "thickness_mm": 3
+    },
+    {
+      "notches": 4,
+      "hole_diameter_mm": 40,
+      "thickness_mm": 3
+    },
+    {
+      "notches": 5,
+      "hole_diameter_mm": 41,
+      "thickness_mm": 3
+    }
+  ],
+  "extents_mm": [
+    168.0,
+    110.0,
+    3.0
+  ],
+  "watertight": true,
+  "separate_test_rings": 5,
+  "purpose": "Unpowered mechanical fit gauge, not final socket mount"
+}

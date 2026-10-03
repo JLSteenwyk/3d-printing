@@ -183,8 +183,8 @@ report={'version':2,'units':'mm','parameters':P,'flute_count':flute_count,
         'print_intent':'one connected olive body, upright; tan trim printed separately',
         'upper_vent_count':len(upper_cuts),'lower_vent_count':len(lower_cuts),
         'slicer_validation_completed':False,'thermal_validation_completed':False,
-        'physical_tray_fit_confirmed':False,'corner_coupon_fit_confirmed':True,
-        'corner_fit_evidence':'User accepted printed R27 coupon on 2026-10-02; full rim fit pending','socket_adapter_finalized':False,'parts':{}}
+        'physical_tray_fit_confirmed':True,'corner_coupon_fit_confirmed':True,
+        'corner_fit_evidence':'User accepted printed R27 coupon on 2026-10-02; full R27 rim accepted by user on 2026-10-02','socket_adapter_finalized':False,'parts':{}}
 for name,solid in parts.items():
     m=mesh(solid)
     assert m.is_watertight and m.is_winding_consistent and m.volume>0,name
