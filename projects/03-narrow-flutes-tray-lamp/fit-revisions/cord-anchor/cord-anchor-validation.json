@@ -1,0 +1,22 @@
+{
+  "units": "mm",
+  "thickness": 3,
+  "bolt_holes_mm": [
+    [
+      -20,
+      12
+    ],
+    [
+      20,
+      12
+    ]
+  ],
+  "tie_slots_mm": [
+    3.2,
+    10
+  ],
+  "watertight": true,
+  "physical_fit_confirmed": false,
+  "assembly_bottom_z_mm": 10,
+  "assembly_interference_checks_passed": true
+}

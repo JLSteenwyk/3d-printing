@@ -1,0 +1,13 @@
+Keep the physically accepted socket bracket V1. The cord anchor is an optional separately printed addition sharing its two rear bolt holes (X +/-20, Y+12).
+
+Print cord_anchor_plate_PETG.3mf flat in PETG at 100% scale. It is 3 mm thick and intended to need no supports. All provided 3MF files contain geometry and millimeter units, not Bambu printer or filament settings. Studio import and slicing have not been verified.
+
+Put anchor on TOP of bracket base, tongue extending toward the lamp rear (+Y). Mount bracket to existing lamp pad with four M3 bolts, washers and nuts. Starting lengths: front M3 x16 mm; rear with anchor M3 x20 mm. Verify engagement and clearance on actual parts; do not overtighten PETG. Access nuts through open underside.
+
+Route the cord toward the rear opening along the bottom, avoiding the bulb. Leave relaxed slack at the factory socket grip. Thread one 2.5 mm wide cable tie down one slot and up the other, wrapping it over the cord. Tighten only enough to hold the cable without flattening or marking its insulation. An adjustable tie anchor is not yet a proven strain relief: test unplugged with a gentle external tug to confirm no motion at socket and no insulation damage. Revise if it slips; do not crush the cable. Cord width/thickness confirmation remains pending.
+
+Next print is the small anchor plate. Confirm slots/cord routing and hardware before committing to the large body print. Socket bracket fit and full tray fit are physically confirmed. Body, load/creep, cord restraint and heat behavior are not.
+
+Full lamp files are olive_body_one_piece_PETG.3mf, tan_base_trim_PLA.3mf and tan_top_trim_PLA.3mf. Print olive body upright, ordinary mode, inspect corbel corners/bridges/vent roofs and brim placement in Studio. Print tan sleeves separately in PLA. Tan trim footprint is 251.23 x211.86 mm, leaving little brim room on nominal256 mm plate.
+
+Do not energize the assembled prototype before cord retention and hardware are confirmed. Final temperature validation must use the intended bulb and installed tray; ventilation alone is not proof of acceptable temperatures.
