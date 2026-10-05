@@ -1,0 +1,30 @@
+{
+  "units": "mm",
+  "receiver_extents_mm": [
+    122.0,
+    63.89999771118164,
+    10.449999809265137
+  ],
+  "bracket_width_mm": 54,
+  "bracket_thickness_mm": 5,
+  "side_clearance_mm": 0.35,
+  "vertical_clearance_mm": 0.45,
+  "rail_overlap_mm": 0.65,
+  "latch_deflection_estimate_mm": 2,
+  "latch_tooth_height_mm": 7.5,
+  "upright_plate_bottom_mm": 8,
+  "leaf_length_mm": 29,
+  "leaf_thickness_mm": 1.2,
+  "pin_shaft_mm": 3,
+  "pin_max_hook_mm": 3.8,
+  "physical_fit_confirmed": false,
+  "slicer_validation_completed": false,
+  "receiver_connected_solids": 1,
+  "pin_connected_solids": 1,
+  "watertight": true,
+  "intended_mount": "receiver integral to future lamp; existing bracket inserted later; two removable printed anchor pins",
+  "warning": "Mechanical trial only. Leaf strength, pin insertion and retention require physical testing.",
+  "full_bracket_seated_overlap_mm3": 1.3825957861771966e-13,
+  "rigid_guide_insertion_path_worst_overlap_mm3": 4.190900556276522e-13,
+  "path_check": "91 positions at 1 mm spacing, full bracket mesh, flexible latch area excluded to represent manual release; not elastic or slicer validation"
+}
