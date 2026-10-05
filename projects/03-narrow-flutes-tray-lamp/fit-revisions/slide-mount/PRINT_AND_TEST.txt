@@ -1,0 +1,15 @@
+Slide mount mechanical trial — no metal bolts
+
+Print slide_receiver_test_PETG.3mf flat in PETG at 100% scale using the same profile as the accepted bracket. The 0.35 mm side and 0.45 mm vertical clearances are trials. Inspect the short inward rail lips in Bambu Studio; if supports are needed, restrict them to the lips and remove them fully. Keep the lateral spring relief clear. This is a single connected receiver with an integral flexible tab, not a preassembled moving mechanism. Successful support-free printing is not yet verified.
+
+Print TWO copies of anchor_snap_pin_PETG_print_two.3mf, round head on the bed, in PETG at 100% scale. Inspect split shaft and hook tips; use fine layers (e.g. 0.16 mm) and avoid supports inside the split. Pins are deliberately separate replaceable parts.
+
+Keep the socket unplugged. Start with bracket alone, cord anchor loose and bulb removed. The receiver's closed end is the back stop. Insert bracket from the opposite open end, upright socket plate leading, with its broad base between the two rails. Press the small latch tab outward, away from the rail channel, and slide gently to the back stop; release the tab. The tooth should spring in just beyond the bracket's trailing base edge. Do not force or sand before reporting a binding fit.
+
+Check upward capture by gently lifting the bracket; rail lips should prevent lift-out. Check sideways rocking and gently pull toward the entry; the latch should prevent sliding out. Push the tab outward to release and slide back out. Perform several cycles and inspect for cracks, permanent bending or layer separation. Do not energize this trial assembly.
+
+After the rail fit works, put the existing T-shaped cord anchor on the bracket with round holes aligned at X +/-20,Y+12 and tongue toward +Y. The receiver's pin holes line up only when the bracket is fully seated. Push one printed pin down each anchor hole through anchor, bracket base and receiver floor. Lift the fixture off the table to give hooks room to emerge. Push gently; stop if resistance is high or hooks crack. Check that heads retain the anchor and hooks emerge underneath. Some axial clearance is intentional; report wobble/slipping. To remove, squeeze the two split tips together from underneath and push up. Do not use pliers on the cord or electrical parts.
+
+Reinstall socket and bulb, reconnect cord tie with slack and no insulation compression. A gentle mechanical cord check requires holding the receiver securely. These test parts are not a final electrical/heat-qualified fixture.
+
+Report: (1) slides easily or binds; (2) latch clicks/retains/releases; (3) rail lift/rocking; (4) both pins fit and hold the anchor; (5) photos seated and underneath. Once accepted, receiver will be integrated into lamp. Do not print the old bolted lamp body for this mounting option.
