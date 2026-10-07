@@ -1,0 +1,28 @@
+{
+  "file": "olive_body_slide_mount_PETG_Bambu_project.3mf",
+  "mesh_unchanged": true,
+  "watertight": true,
+  "support_enforcer_facets": 156,
+  "support_enforcer_area_mm2": 6968.414884076449,
+  "support_z_mm": 2,
+  "settings_count": 438,
+  "bed_bounds_mm": [
+    [
+      4.385002,
+      24.069999999999993,
+      0.0
+    ],
+    [
+      251.614998,
+      231.93,
+      152.0
+    ]
+  ],
+  "brim_width_mm": 2,
+  "nozzle_mm": 0.4,
+  "filament": "Generic PETG; awaiting exact filament confirmation",
+  "import_tested": false,
+  "sliced": false,
+  "source": "https://github.com/bambulab/BambuStudio",
+  "paint_encoding": "TriangleSelector serialize: ENFORCER=1 => 4; BLOCKER=2 => 8"
+}
