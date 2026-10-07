@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "units": "mm",
+  "parameters": {
+    "tray_width": 240.02999999999997,
+    "tray_depth": 200.66,
+    "tray_height": 25.4,
+    "tray_mass_g": 371.3787529375,
+    "tray_corner_radius": 27.0,
+    "receiver_outer_corner_radius": 18.6,
+    "side_clearance": 0.6,
+    "collar_wall": 3.0,
+    "pocket_depth": 8.0,
+    "body_height": 152.0,
+    "ledge_width": 15.0,
+    "diffuser_wall": 1.2,
+    "flute_depth": 3.4,
+    "flute_pitch": 8.4,
+    "socket_envelope_length": 73.0,
+    "socket_envelope_diameter": 58.0
+  },
+  "flute_count": 102,
+  "rib_radius_mm": 3.5,
+  "olive_body_mm": [
+    247.22999999999996,
+    207.85999999999999,
+    152.0
+  ],
+  "trim_footprint_mm": [
+    251.22999999999996,
+    211.85999999999999
+  ],
+  "pocket_mm": [
+    241.22999999999996,
+    201.85999999999999,
+    8.0
+  ],
+  "tray_seat_mm": 144.0,
+  "total_height_with_tray_mm": 169.4,
+  "print_intent": "one connected olive body, upright; tan trim printed separately",
+  "upper_vent_count": 14,
+  "lower_vent_count": 14,
+  "slicer_validation_completed": false,
+  "thermal_validation_completed": false,
+  "physical_tray_fit_confirmed": true,
+  "corner_coupon_fit_confirmed": true,
+  "corner_fit_evidence": "User accepted printed R27 coupon on 2026-10-02; full R27 rim accepted by user on 2026-10-02",
+  "socket_adapter_finalized": false,
+  "slide_receiver_v2_fit_confirmed": true,
+  "integrated_slide_mount_fit_confirmed": false,
+  "pin_underfloor_clearance_mm": 2,
+  "integrated_leaf_height_increase_mm": 2,
+  "parts": {
+    "olive_body_slide_mount_PETG": {
+      "extents_mm": [
+        247.22999572753906,
+        207.86000061035156,
+        152.0
+      ],
+      "volume_cm3": 577.5735898903235,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tan_base_trim_PLA": {
+      "extents_mm": [
+        251.22999572753906,
+        211.86000061035156,
+        14.0
+      ],
+      "volume_cm3": 17.64786262172158,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tan_top_trim_PLA": {
+      "extents_mm": [
+        251.22999572753906,
+        211.86000061035156,
+        12.0
+      ],
+      "volume_cm3": 17.710006181254517,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tray_fit_test_rim": {
+      "extents_mm": [
+        247.22999572753906,
+        207.86000061035156,
+        10.0
+      ],
+      "volume_cm3": 36.13201254732185,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    },
+    "tray_corner_coupon": {
+      "extents_mm": [
+        79.99999618530273,
+        80.0,
+        10.0
+      ],
+      "volume_cm3": 6.667573680280887,
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_solids": 1
+    }
+  },
+  "hardware_envelope_overlap_cm3": 0.0,
+  "trim_body_overlap_cm3": {
+    "base": 0.0,
+    "top": 0.0
+  },
+  "full_bracket_seated_overlap_mm3": 7.532971642298936e-14,
+  "rigid_insertion_path_overlap_mm3": 7.632439602209273e-13,
+  "path_check": "81 positions 0\u201380mm, full bracket, flexible latch region excluded; bulb removed during installation."
+}

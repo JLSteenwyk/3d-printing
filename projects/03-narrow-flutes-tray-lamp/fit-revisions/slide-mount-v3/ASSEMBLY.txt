@@ -1,0 +1,13 @@
+V3 lamp body with integrated slide receiver — prototype
+
+Print olive_body_slide_mount_PETG.3mf upright in olive PETG. This is a geometry-only 3MF: select your printer, PETG profile and slicing settings in Bambu Studio. Inspect the sliced rail lips, latch gaps, vent roofs, and bridges before printing. Bambu Studio import/slicing has not been verified here.
+
+Reuse the accepted socket bracket, cord anchor plate and two snap pins. The standalone V2 slide receiver is replaced by the receiver inside this body. Existing tan trims remain compatible.
+
+With the cord unplugged and bulb removed, lower the bracket into the open top. Slide its base from the right-hand opening toward the closed stop on the left. Hold the latch outward if needed, then let it return behind the bracket's front edge. Verify that the bracket seats flat and cannot slide back out with the latch engaged.
+
+Install the cord anchor and two snap pins as in the accepted test assembly. Route the cord with slack behind the socket and secure it through the anchor slots without crushing the jacket. Confirm that the pin tips clear the table and cord pulls do not move the socket. Screw in the bulb only after the bracket is seated.
+
+The integrated receiver floor is raised 2 mm for snap-pin clearance. Its latch extends down to the print bed, increasing its height by 2 mm compared with the tested standalone receiver. Its stiffness and release action need physical confirmation. Stop if the latch cannot release easily; do not force the bracket.
+
+CAD checks passed: body is watertight and one connected part; bracket seated and slide path clear rigid body geometry; conservative bulb/socket envelopes clear body. These checks do not establish print quality, electrical safety, or thermal performance. Final powered use awaits cord-retention and supervised heat checks. Keep ventilation openings clear.
