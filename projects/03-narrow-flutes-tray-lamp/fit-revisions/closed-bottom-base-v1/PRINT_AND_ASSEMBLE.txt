@@ -1,0 +1,13 @@
+CLOSED-BOTTOM BASE V1
+
+This replaces tan_base_trim_PLA. Keep the existing olive lamp body, slide bracket, cord anchor and pins. The upper tan trim is unchanged. The new base has a closed 2.4 mm bottom, a 10 mm collar fitted around the narrower lower body, fourteen matching ventilation openings and a rear cord notch.
+
+Print base_corner_fit_coupon_v1.3mf first in the intended material. It is a 65 x 65 mm corner cut from the actual base, with a small bottom panel. With power disconnected and tray removed, fit it around a front corner at the bottom of the lamp. The lamp's bottom should sit flat on the coupon floor, with the collar outside the lower wall. It should slide on by hand, without forcing or bending the olive wall. Clearance is 0.4 mm per side. Report any tightness or excess looseness before printing the full base.
+
+Full part: bottom_base_closed_floor_v1.3mf. One copy, flat broad bottom on the bed, opening upward. No supports are intended. These are geometry-only 3MF files: select the correct printer and material in Bambu Studio. For your P2S with an assumed 0.4 mm nozzle, start with 0.20 mm layers, 3 walls, 5 top and 5 bottom layers, and 15% gyroid infill. Do not enable vase mode. The footprint is 251.23 x 211.86 mm; check bed bounds and leave brim off initially because the base already has a broad first layer. Use the appropriate plate preparation for your filament. Bambu Studio import and slicing have not been tested here.
+
+Desert tan PLA matches the original design, but this closed base has not passed a heat test. PETG is an alternative for the functional prototype. Do not treat either material or the new assembly as thermally validated. The existing bulb also requires ventilation; preserve the base and lamp vents and complete supervised thermal checks before routine use.
+
+Assembly: unplug the cord, remove the tray, and lower the existing assembled lamp vertically into the base. Align its rear cord opening with the new base's cord notch. The lamp rests on the bottom panel, raising the entire assembly 2.4 mm. No screws, glue or snaps are needed for the initial fit. This is a removable seating base, not a positive lock; lift the lamp from the base, not solely from the olive shell. Keep the cord free of the seating edge. Existing pin clearance is preserved because the entire body and hardware move upward together. Check that the receiver/pins do not prevent the lamp's bottom edge from seating flat.
+
+Do not stack this base with the old lower trim. The broad bottom adds a finished underside while the side openings maintain the existing ventilation paths. New airflow and thermal behavior still need physical confirmation.

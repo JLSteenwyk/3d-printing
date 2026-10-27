@@ -1,0 +1,31 @@
+{
+  "extents_mm": [
+    251.22999572753906,
+    211.86000061035156,
+    12.399999618530273
+  ],
+  "volume_cm3": 160.3867992372508,
+  "floor_mm": 2.4,
+  "collar_height_above_floor_mm": 10.0,
+  "side_clearance_mm": 0.4,
+  "corner_coupon_extents_mm": [
+    64.99999618530273,
+    65.0,
+    12.399999618530273
+  ],
+  "watertight": true,
+  "connected_parts": 1,
+  "lower_vent_count": 14,
+  "cord_notch_width_mm": 24,
+  "geometry_only_3mf": true,
+  "slice_verified": false,
+  "physical_fit_verified": false,
+  "thermal_validation_complete": false,
+  "support_intent": "none, floor-down",
+  "lamp_height_increase_mm": 2.4,
+  "body_overlap_mm3": 2.60258593749198e-14,
+  "vertical_seating_path_overlap_mm3": 2.60258593749198e-14,
+  "lower_vent_blockage_mm3": 5.684341886080802e-14,
+  "bulb_socket_overlap_mm3": 0.0,
+  "pin_clearance_note": "Base floor coincides with original table plane after body is lifted by floor thickness; existing pin clearance preserved."
+}
